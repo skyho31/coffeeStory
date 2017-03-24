@@ -10,6 +10,7 @@ class Best extends Component {
 						<h2>Best Flavor</h2>
 						<h5>in coffee story</h5>
 					</div>
+					<hr/>
 				</div>	
 			</section>
 		)

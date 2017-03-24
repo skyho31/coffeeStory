@@ -30,7 +30,27 @@ class StoryDescription extends Component{
 	render(){
 		return(
 			<div className="storySection">
-				<text>있는 인생을 가장 방지하는 몸이 그들은 구할 관현악이며, 아름다우냐? 거선의 천지는 같으며, 바이며, 영원히 능히 있는 부패뿐이다. 목숨이 것이다.보라, 길지 청춘에서만 아름다우냐? 얼마나 트고, 들어 사막이다. 남는 위하여, 예가 이상은 그들에게 봄날의 쓸쓸하랴? 살 커다란 위하여, 불어 있으랴? 대한 하는 낙원을 부패뿐이다. 바이며, 풍부하게 못할 인생을 위하여서. 희망의 그들은 예가 듣기만 실로 위하여서. 우리 희망의 같이, 열락의 이상의 용기가 것이다.</text>
+				<text>How Do I Love Thee?
+ <br/>
+Elizabeth Barrett Browning<br/>
+ <br/>
+How do I love thee? Let me count the ways.<br/>
+I love thee to the depth and breadth and height<br/>
+My soul can reach, when feeling out of sight<br/>
+For the ends of Being and ideal Grace.<br/><br/>
+ 
+I love thee to the level of everyday's<br/>
+Most quiet need, by sun and candle-light.<br/>
+I love thee freely, as men strive for Right;<br/>
+I love thee purely, as they turn from Praise.<br/><br/>
+ 
+I love thee with the passion put to use<br/>
+In my old griefs, and with my childhood's faith.<br/>
+I love thee with a love I seemed to lose<br/>
+With my lost saints, - I love thee with the breath,<br/>
+Smiles, tears, of all my life! - and, if God choose,<br/>
+I shall but love thee better after death.<br/>
+				</text>
 			</div>
 		)
 	}
