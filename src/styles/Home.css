@@ -1,0 +1,50 @@
+.homeSection {
+	background: url('../img/main3.jpeg');
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	height:100vh;
+}
+
+.homeWrapper {
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	position: relative;
+	text-align: center;
+}
+
+.homeImg{
+	margin-top:calc(50vh - 100px);
+}
+
+.downArrow {
+	height:0px;
+	width:0px;
+	position: absolute;
+	bottom:20px;
+	left:calc(50vw - 10px);
+  	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent;  
+  	border-top: 10px solid white;
+  	animation: focusButton 4s ease 0s infinite;
+}
+
+.downArrow:nth-child(even){
+	bottom: 40px;
+	animation: focusButton 4s ease 2s infinite;
+}
+
+@keyframes focusButton {
+	from {
+		border-top: 10px solid white;
+	}
+
+	50% {
+		border-top: 10px solid #ff6666;
+	}
+
+	to{
+		border-top: 10px solid white;
+	}
+}

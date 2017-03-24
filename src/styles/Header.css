@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+header {
+	height: 80px;
+	overflow: hidden;
+	position: fixed;
+	width:100%;
+	font-family: 'Orbitron', sans-serif;
+	background: rgba(0,0,0,.5);
+	z-index: 3;
+}
+
+header .logoText {
+	float:left;
+	margin-left:40px;
+}
+
+header .logoText h1{
+	font-size: 20px;
+	color:#f1c40f;
+	line-height: 80px;
+}
+
+header ul {
+	float:right;
+	margin-right:40px;
+}
+
+header ul li {
+	display: inline-block;
+	position: relative;
+	font-size:18px;
+	padding:12px 15px;
+	margin:19px 0;
+	color:white;
+}
+
+header ul li:hover {
+	background-color: #f1c40f;
+	color:black;
+	border-radius: 20px;
+	cursor:pointer;
+}
+
+
+@media (max-width: 800px){
+	header {
+		text-align: center;
+		background: transparent;
+	}
+
+	header .logoText{
+		float:none;
+		margin:0;
+	}
+
+}

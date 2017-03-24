@@ -1,0 +1,41 @@
+#story{
+	width:100%;
+	position: relative;
+	padding:60px 0;
+	background: white;
+	height:100vh;
+	z-index: 2;
+}
+
+.storyContainer{
+	max-width: 900px;
+	overflow: hidden;
+	margin:auto;
+	height:100%;
+}
+
+.storySection{
+	
+	width:100%;
+	line-height: 1.5em;
+	padding:40px;
+}
+
+.storySection:nth-child(1){
+	padding:0;
+	text-align: center;
+}
+
+.storySection h5{
+	font-size: 2em;
+	font-family: 'Clicker Script', cursive;
+	color:#ff6666;
+	position: relative;
+	top:-20px;
+
+}
+
+.cup{
+	margin-left:20px;
+}
+

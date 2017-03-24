@@ -1,0 +1,18 @@
+#location{
+	width:100%;
+	height:100vh;
+	overflow: hidden;
+	background: url('../img/cross.jpg');
+	position: relative;
+
+}
+
+.locationWrapper{
+	height:100%;
+	margin:auto;
+	text-align: center;
+	padding:40px;
+	color:white;
+	background: rgba(0,0,0,0.5);
+}
+
