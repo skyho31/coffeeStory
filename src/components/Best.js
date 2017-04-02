@@ -17,10 +17,10 @@ class Best extends Component {
 					</div>
 					<hr/>
 					<div className="photoContainer">
-						<img className="storePhoto" src={img1}/>
-						<img className="storePhoto" src={img2}/>
-						<img className="storePhoto" src={img3}/>
-						<img className="storePhoto" src={img4}/>
+						<img className="storePhoto" src={img1} alt="쿠폰"/>
+						<img className="storePhoto" src={img2} alt="내부"/>
+						<img className="storePhoto" src={img3} alt="벽"/>
+						<img className="storePhoto" src={img4} alt="사람"/>
 					</div>
 				</div>	
 			</section>

@@ -15,7 +15,6 @@ class Header extends Component {
 				<nav>
 					<ul>
 						<li><a href="#home">Home</a></li>
-						<li><a href="#story">Story</a></li>
 						<li><a href="#menu">Menu</a></li>
 						<li><a href="#best">Photo</a></li>
 						<li><a href="#location">Location</a></li>
