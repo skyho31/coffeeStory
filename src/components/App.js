@@ -5,7 +5,6 @@ import Story from './Story';
 import Menu from './Menu';
 import Best from './Best';
 import Location from './Location';
-import Footer from './Footer'
 import '../styles/App.css';
 
 import { connect } from 'react-redux';
@@ -28,7 +27,6 @@ class App extends Component {
                 <Menu />
                 <Best />
                 <Location />
-                <Footer />
             </div>
         );
     }

@@ -48,6 +48,7 @@ header ul li a:hover{
 	header {
 		text-align: center;
 		background: transparent;
+		position: absolute;
 	}
 
 	header .logoText{

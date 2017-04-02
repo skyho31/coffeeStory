@@ -30,26 +30,11 @@ class StoryDescription extends Component{
 	render(){
 		return(
 			<div className="storySection">
-				<text>How Do I Love Thee?
- <br/>
-Elizabeth Barrett Browning<br/>
- <br/>
-How do I love thee? Let me count the ways.<br/>
-I love thee to the depth and breadth and height<br/>
-My soul can reach, when feeling out of sight<br/>
-For the ends of Being and ideal Grace.<br/><br/>
- 
-I love thee to the level of everyday's<br/>
-Most quiet need, by sun and candle-light.<br/>
-I love thee freely, as men strive for Right;<br/>
-I love thee purely, as they turn from Praise.<br/><br/>
- 
-I love thee with the passion put to use<br/>
-In my old griefs, and with my childhood's faith.<br/>
-I love thee with a love I seemed to lose<br/>
-With my lost saints, - I love thee with the breath,<br/>
-Smiles, tears, of all my life! - and, if God choose,<br/>
-I shall but love thee better after death.<br/>
+				<text>
+					어서 오시게, 낯선 이여<br/>
+					여주의 커피스토리에 당도한 것을 환영하오<br/><br/>
+					이곳은 이천과 여주 길목에 있는 조용하고 편안한 카페, 커피스토리<br/>
+					그대들의 피곤한 여행길에 커피향이 함께 하길...
 				</text>
 			</div>
 		)
