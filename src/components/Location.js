@@ -14,11 +14,11 @@ class Location extends Component {
 					</div>
 					{ 
 						this.props.device === "pc" &&
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.8871899161836!2d127.49230681485233!3d37.34517934453264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635a3eade37711%3A0x79c1c79cf68b5e8f!2z6rK96riw64-EIOyXrOyjvOq1sCDtnaXsspzrqbQg7J207Jes66GcIDYyMg!5e0!3m2!1sko!2skr!4v1489725541779" width="900" height="450" frameBorder="0" allowFullScreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.9996672941985!2d127.49357658893649!3d37.34510590139683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635a3eadf96e05%3A0xb1d3a61a195307c4!2z7Luk7ZS87Iqk7Yag66as!5e0!3m2!1sko!2skr!4v1491120582953" width="900" height="450" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
 					}
 					{
-						this.props.device === "mobile" && 
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.8871899161836!2d127.49230681485233!3d37.34517934453264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635a3eade37711%3A0x79c1c79cf68b5e8f!2z6rK96riw64-EIOyXrOyjvOq1sCDtnaXsspzrqbQg7J207Jes66GcIDYyMg!5e0!3m2!1sko!2skr!4v1489725541779" width="auto" height="450" frameBorder="0" allowFullScreen></iframe>
+						this.props.device === "mobile" &&
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.9996672941985!2d127.49357658893649!3d37.34510590139683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635a3eadf96e05%3A0xb1d3a61a195307c4!2z7Luk7ZS87Iqk7Yag66as!5e0!3m2!1sko!2skr!4v1491120582953" width="auto" height="450" frameBorder="0" style={{border:0}} allowFullScreen></iframe> 
 					}
 					
 				</div>
