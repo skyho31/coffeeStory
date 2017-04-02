@@ -53,7 +53,6 @@ hr{
 	font-family: 'Orbitron', sans-serif;
 	color:wheat;
 	margin:10px 0;
-	cursor:pointer;
 	font-size:20px;
 }
 
@@ -63,6 +62,10 @@ hr{
 @media (max-width: 800px){
 	.menuTitle h2{
 		font-size:3em;
+	}
+
+	.menuListTitle{
+		cursor:pointer;
 	}
 
 	.menuDescription ul {
