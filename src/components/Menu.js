@@ -18,7 +18,7 @@ const teaList = [
 ]
 
 const adeList = [
-	'레모네이드', '자몽에이드', '오렌지에이드'
+	'레몬에이드', '자몽에이드', '오렌지에이드'
 ]
 
 const juiceList = [
