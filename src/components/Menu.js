@@ -87,14 +87,14 @@ class MenuDescription extends Component {
 			return(
 				<ul>
 					<li className="menuListTitle">{this.props.title}</li>
-					{this._renderMenu(this.props.list)}
+					{/*this._renderMenu(this.props.list)*/}
 				</ul>
 			)
 		} else if (this.props.device === "mobile"){
 			return(
 				<ul style={{paddingTop:'0px', paddingBottom:'0px'}}>
 					<li className="menuListTitle" onClick={() => this._toggleMenu()}>{this.props.title}</li>
-					{this.state.isOpened && this._renderMenu(this.props.list)}
+					{/*this.state.isOpened && this._renderMenu(this.props.list)*/}
 				</ul>
 			)
 		}	
